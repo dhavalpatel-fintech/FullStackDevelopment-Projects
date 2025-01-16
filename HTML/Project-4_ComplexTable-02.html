@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table-04 with the complexity</title>
+
+    <style>
+        tr:nth-child(even){
+            background-color: lightgrey;
+        }
+    </style>
+</head>
+<body>
+    <h1><u>Complex Table-02</u></h1>
+    <table border="5px" style="text-align: center;">
+        <colgroup>
+            <col span="3" style="background-color: lightseagreen;">
+            <col span="7" style="background-color: lightseagreen;">
+        </colgroup>
+        <!-- Heading -->
+        <thead>
+            <th>Country</th>
+            <th>State</th>
+            <th>City</th>
+            <th>Street</th>
+            <th>Male</th>
+            <th>Female</th>
+            <th>Others</th>
+        </thead>
+        <!-- using the body -->
+         <tbody>
+            <!-- row-1 -->
+            <tr>
+                <td rowspan="8">1</td>
+                <td rowspan="4">Kerala</td>
+                <td rowspan="2">Cochin</td>
+                <td>New Street</td>
+                <td>500</td>
+                <td>600</td>
+                <td>6</td>
+            </tr>
+            <!-- row-2 -->
+            <tr>
+                <!-- <td></td> -->
+                <!-- <td></td> -->
+                <!-- <td></td> -->
+                <td>Main Street</td>
+                <td>300</td>
+                <td>200</td>
+                <td>1</td>
+            </tr>
+            <!-- row-03 -->
+             <tr>
+                <!-- <td></td> -->
+                <!-- <td></td> -->
+                <td rowspan="2">Trivanduram</td>
+                <td>Guru Street</td>
+                <td>100</td>
+                <td>500</td>
+                <td>2</td>
+             </tr>
+            <!-- row-04 -->
+            <tr>
+                <!-- <td></td> -->
+                <!-- <td></td> -->
+                <!-- <td rowspan="2">Trivanduram</td> -->
+                <td>TVK Street</td>
+                <td>100</td>
+                <td>500</td>
+                <td>3</td>
+             </tr>
+            <!-- row-05 -->
+            <tr>
+                <!-- <td></td> -->
+                <td rowspan="4">Maharashtra</td>
+                <td rowspan="2">Mumbai</td>
+                <td>Krishna Street</td>
+                <td>100</td>
+                <td>500</td>
+                <td>4</td>
+             </tr>
+            <!-- row-06 -->
+            <tr>
+                <!-- <td></td> -->
+                <!-- <td rowspan="4">Maharashtra</td> -->
+                <!-- <td rowspan="2">Mumbai</td> -->
+                <td>Main Street</td>
+                <td>100</td>
+                <td>500</td>
+                <td>5</td>
+             </tr>
+             <!-- row-07 -->
+             <tr>
+                <!-- <td></td> -->
+                <!-- <td rowspan="4">Maharashtra</td> -->
+                <td rowspan="2">Surath</td>
+                <td>New Street</td>
+                <td>100</td>
+                <td>500</td>
+                <td>6</td>
+             </tr>
+             <!-- row-08 -->
+             <tr>
+                <!-- <td></td> -->
+                <!-- <td rowspan="4">Maharashtra</td> -->
+                <!-- <td rowspan="2">Surath</td> -->
+                <td>Billa Street</td>
+                <td>100</td>
+                <td>500</td>
+                <td>7</td>
+             </tr>
+             <!-- row-09 -->
+             <tr>
+                <td rowspan="2">2</td>
+                <td rowspan="2">Alaska</td>
+                <td rowspan="2">AKA Central</td>
+                <td>New Street</td>
+                <td>100</td>
+                <td>500</td>
+                <td>8</td>
+             </tr>
+             <!-- row-10 -->
+             <tr>
+                <!-- <td rowspan="2">2</td> -->
+                <!-- <td rowspan="2">Alaska</td> -->
+                <!-- <td rowspan="2">AKA Central</td> -->
+                <td>Cross Street</td>
+                <td>100</td>
+                <td>500</td>
+                <td>9</td>
+             </tr>
+
+         </tbody>
+    </table>
+    
+</body>
+</html>
