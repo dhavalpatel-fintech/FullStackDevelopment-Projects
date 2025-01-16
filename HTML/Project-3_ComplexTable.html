@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Complex Table</title>
+    <link rel="shortcut icon" href="https://cdn-icons-png.flaticon.com/512/12453/12453545.png" type="image/x-icon">
+</head>
+<body>
+    <!-- mkaing a complex table for Ptractise -->
+     <h1 style="text-align: start;" title="complex html table"><u>Complex Table</u></h1>
+
+     <!-- table -->
+      <table border="3px" style="border-collapse:separate;">
+        <colgroup>
+            <col span="3" style="background-color: lightgreen;">
+        </colgroup>
+        <tbody style="text-align: center;">
+            <!-- R1. -->
+            <tr style="font-weight: bold;">
+                <td rowspan="3">Day</td>
+                <td colspan="3">Seminar</td>
+            </tr>
+            <!-- R2. -->
+            <tr style="font-weight: bold;">
+                <td colspan="2">Schedule</td>
+                <td rowspan="2">Topic</td>
+            </tr>
+            <!-- R3. -->
+            <tr style="font-weight: bold;">
+                <td>Begin</td>
+                <td>End</td>
+            </tr>
+
+            <!-- R4.  -->
+             <tr>
+                <td rowspan="2">Monday</td>
+                <td rowspan="2">8:00 AM</td>
+                <td rowspan="2">5:00 PM</td>
+                <td>Introduction to HTML</td>
+             </tr>
+
+             <!-- R5. -->
+              <tr>
+                <td>Validity: DTD and Relax NG</td>
+              </tr>
+
+              <!-- R6. -->
+               <tr>
+                <td rowspan="3">Tuesday</td>
+                <td>8:00 AM</td>
+                <td>11:00 AM</td>
+                <td rowspan="2">XPath</td>
+               </tr>
+
+               <!-- R7. -->
+               <tr>
+                <td>11:00 AM</td>
+                <td>2:00 PM</td>
+               </tr>
+
+               <!-- R8. -->
+               <tr>
+                <td>2:00 PM</td>
+                <td>5:00 PM</td>
+                <td>XSL Transformations</td>
+               </tr>
+
+               <!-- R9.  -->
+                <tr>
+                    <td>Wednesday</td>
+                    <td>8:00 AM</td>
+                    <td>12:00 PM</td>
+                    <td>XSL Formatting Objects</td>
+                </tr>
+        </tbody>
+      </table>
+</body>
+</html>
