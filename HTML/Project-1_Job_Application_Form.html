@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Basic Information</title>
+    <!-- favicon -->
+    <link rel="shortcut icon" href="Project-Favicon.png" type="image/x-icon">
+</head>
+<body>
+<h1 style="text-align: center;"><u>Job Application Form</u></h1>
+    <!-- fieldset -->
+     <fieldset>
+        <!-- legend -->
+         <legend>
+            <h2 title="basic-information">Basic Information</h2>
+         </legend>
+
+         <!-- form -->
+          <form action="#form">
+            <fieldset>
+                <legend>Personal Information</legend>
+                 <br>
+
+                <!-- first name -->
+                 <label for="fname">1. First Name:</label>
+                 <input type="text" id="fname" placeholder="Enter first name:">
+                 <br><br>
+
+                 <!-- lname -->
+                 <label for="lname">2. Last Name:</label>
+                 <input type="text" id="lname" placeholder="Enter last name:">
+                 <br><br>
+
+                 <!-- email id -->
+                 <label for="emailid">3. Email Id:</label>
+                 <input type="text" id="emailid" placeholder="Enter valid Email Id:">
+                 <br><br>
+
+                 <!-- Phone Number -->
+                  <label for="phone">4. Phone Number:</label>
+                  <input type="tel" name="phone" id="phone" value="+91- " placeholder="Enter a valid phone number">
+                  <br><br>
+                
+                <!-- date of birth -->
+                <label for="dob">5. Date of Birth:</label>
+                <input type="date" name="dob" id="dob">
+                <br><br>
+
+                <!-- Gender -->
+                 <label for="gender">6. Gender:</label>
+                 <input type="radio" id="male" name="gender">
+                 <label for="male">Male</label>
+
+                 <input type="radio" id="female" name="gender">
+                 <label for="female">Female</label>
+                 <br>
+                </fieldset>
+                <br>
+                <hr>
+                <br>
+
+                <!-- PROFESSIONAL INFORMATION -->
+                 <fieldset>
+                    <legend>Professional Information</legend>
+                    <br>
+
+                    <!-- occupation -->
+                     <label for="occupation">1. Occupation:</label>
+                     <select name="occupation" id="occupation">
+                        <option value="select">------ Select ------</option>
+                        <option value="SDE">SDE/ SRE/ DE</option>
+                        <option value="DS">Data Scientist</option>
+                        <option value="IB">Investment Banker</option>
+                        <option value="CF">Co-Founder</option>
+                     </select>
+                     <br><br>
+
+                    <!-- Current company -->
+                     <label for="currcomp">2. Current Company:</label>
+                     <input type="text" id="currcomp">
+                     <br><br>
+
+                     <!-- Current designation -->
+                      <label for="designation">3. Designation:</label>
+                      <input type="text" name="designation" id="designation">
+                      <br><br>
+
+                      <!-- Experience in years -->
+                       <label for="yoe">4. Experience in years: </label>
+                       <input type="number" id="yoe">
+                       <br><br>
+
+                      <!-- Area of interset -->
+                       <label for="areaofint">5. Area of Interest:</label>
+                       <input type="checkbox" id="Technology" name="areaofint">
+                       <label for="Technology">Technology</label>
+                       <input type="checkbox" id="Consulting" name="areaofint">
+                       <label for="Consulting">Consulting</label>
+                       <input type="checkbox" id="Banking" name="areaofint">
+                       <label for="Banking">Banking</label>
+                       <input type="checkbox" id="Product Management" name="areaofint">
+                       <label for="Product Management">Product Management</label>
+                       <br><br>
+
+                       <!-- Resume -->
+                        <label for="resume">6. Resume:</label>
+                        <input type="file" id="resume">
+                        <br><br>
+
+                        <!-- Availiability -->
+                         <label for="available">7. Availiability:</label>
+                         <input type="radio" id="ftime" name="available">
+                         <label for="ftime">Full-time</label>
+
+                         <input type="radio" id="ptime" name="available">
+                         <label for="ptime">Part-time</label>
+                         <br><br>
+
+                         <!-- week available -->
+                          <label for="week">8. Preferred Week for an Interview:</label>
+                          <input type="week" id="week">
+                          <br>
+                 </fieldset>
+                 <br>
+                 <hr>
+                 <br>
+
+                <!-- ADDRESS -->
+                 <fieldset>
+                    <legend>Residential Information</legend>
+                    <br>
+
+                    <!-- Address -->
+                   <label for="address">1. Address:</label>
+                   <input width="500px" type="text" name="address" id="address">
+                   <br><br>
+
+                   <!-- city     -->
+                    <label for="city">2. Country: </label>
+                    <input list="city">
+                    <datalist id="city">
+                        <option value="IN">India</option>
+                        <option value="US">United States of America</option>
+                        <option value="UK">United Kingdom</option>
+                        <option value="Fr">France</option>
+                    </datalist>
+                    <br><br>
+
+                    <!-- state -->
+                     <label for="state">3. State: </label>
+                     <select name="state" id="state">
+                        <option value="select">------- Select -------</option>
+                        <option value="Gujarat">Gujarat</option>
+                        <option value="Karnataka">Karnataka</option>
+                        <option value="Maharashtra">Maharashtra</option>
+                        <option value="Haryana">Haryana</option>
+                     </select>
+                     <br><br>
+
+                     <!-- city -->
+                      <label for="city">4. City:</label>
+                      <select name="city" id="city">
+                        <option value="select">------- Select -------</option>
+                        <option value="Ahmedabad">Ahmedabad</option>
+                        <option value="Banglore">Banglore</option>
+                        <option value="Mumbai">Mumbai</option>
+                        <option value="Gurugram">Gurugram</option>
+                      </select>
+                      <br><br>
+
+                      <!-- zipcode -->
+                       <label for="zipcode">5. Zip-Code:</label>
+                       <input type="text" id="zipcode" placeholder="Eg. 382330">
+                 </fieldset>
+                 <br>
+                 <hr>
+                 <br>
+
+                 <!-- Credentials -->
+
+                 <fieldset>
+                    <legend>Login Credentials</legend>
+                    <br>
+
+                    <!-- Username -->
+                     <label for="username">1. Username:</label>
+                     <input type="text" id="username" placeholder="johndoe@abc.com">
+                     <br><br>
+
+                     <!-- password -->
+                     <label for="password">2. Password:</label>
+                     <input type="password" id="password" placeholder="Password">
+                     <br><br>
+
+                     <!-- text password -->
+                     <label for="password">3. Confirm Password:</label>
+                     <input type="text" id="password" placeholder="Password">
+                     <br><br>
+                 </fieldset>
+                 <br>
+
+                 <!-- text area -->
+                  <label for="comments">Comments/ Message to the Company:</label>
+                  <textarea name="comments" id="comments"></textarea>
+                  <br><br>
+
+                 <!-- section >> details >> summary + paragraph -->
+                  <!-- terms and conditions -->
+                   <input type="checkbox">
+                   <label for="t&c">I agree to the terms & conditions</label>
+                   <br><br>
+                  <section>
+                    <details>
+                        <summary>Read the company policies and confirm</summary>
+                        <p><a href="https://policies.google.com/terms?hl=en-US">Terms and Conditions</a></p>
+                    </details>
+                  </section>
+          </form>
+          <br>
+
+          <!-- Submit -->
+           <button>Submit</button>
+           <input type="reset" id="#form">
+     </fieldset>
+</body>
+</html>
