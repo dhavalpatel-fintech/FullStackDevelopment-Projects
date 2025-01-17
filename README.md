@@ -8,4 +8,6 @@ My Portfolio for Full Stack - SDE
 4. Complex Table-02
 5. Resume
 6. The Little Tacos Shop
+7. The Tribute Page - Steve Jobs
+   
 
