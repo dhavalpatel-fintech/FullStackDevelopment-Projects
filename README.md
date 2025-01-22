@@ -12,6 +12,6 @@ My Portfolio for Full Stack - SDE
 
 ## CSS Portfolio-Projects
 1. Recipe Project
-2. Card item (RazorPay)
+2. Card Item (RazorPay)
    
 
