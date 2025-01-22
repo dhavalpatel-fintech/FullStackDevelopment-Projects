@@ -10,7 +10,7 @@ My Portfolio for Full Stack - SDE
 6. The Little Tacos Shop
 7. The Tribute Page - Steve Jobs
 
-## CSS Portfolio-projects
+## CSS Portfolio-Projects
 1. Recipe Project
 2. Card item (RazorPay)
    
