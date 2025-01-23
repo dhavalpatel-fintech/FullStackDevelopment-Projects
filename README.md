@@ -15,5 +15,6 @@ My Portfolio for Full Stack - SDE
 2. Card Item (RazorPay)
 3. Blog Website
 4. Amazon Clone
+5. StudySync Clone
    
 
