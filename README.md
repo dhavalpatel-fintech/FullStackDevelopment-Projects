@@ -13,5 +13,7 @@ My Portfolio for Full Stack - SDE
 ## CSS Portfolio-Projects
 1. Recipe Project
 2. Card Item (RazorPay)
+3. Blog Website
+4. Amazon Clone
    
 
