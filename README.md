@@ -16,5 +16,7 @@ My Portfolio for Full Stack - SDE
 3. Blog Website
 4. Amazon Clone
 5. StudySync Clone
+6. Swiggy Clone
+7. Myntra Clone
    
 
