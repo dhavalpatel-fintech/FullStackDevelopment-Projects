@@ -9,6 +9,7 @@ My Portfolio for Full Stack - SDE
 5. Resume
 6. The Little Tacos Shop
 7. The Tribute Page - Steve Jobs
+8. The Parallex Resume - Dhaval Patel
 
 ## CSS Portfolio-Projects
 1. Recipe Project
